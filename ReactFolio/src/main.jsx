@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-import Error from './pages/Error.jsx';
-import Home from './pages/Home.jsx';
+import Error from './pages/Error';
+import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Header from './pages/Header.jsx';
-import Project from './pages/Project.jsx';
-import Footer from './pages/Footer.jsx';
-import Resume from './pages/Resume.jsx';
+import Header from './pages/Header';
+import Project from './pages/Portfolio';
+import Footer from './pages/Footer';
+import Resume from './pages/Resume'
 
 const router = createBrowserRouter([
   {
